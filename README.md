@@ -1,6 +1,22 @@
 # learning_vim
 
 
+## Pack
+
+### 0. pack的安装
+
+方法1：
+
+使用pack管理器（举例：minpac）安装
+
+.vimrc加入如下内容
+
+`call minpac#add('tpope/vim-eunuch')`
+
+vim命令模式执行
+
+`:PackUpdate`
+
 Issue:
 
 ```
@@ -18,23 +34,6 @@ git config --global  --unset http.https://github.com.proxy
 ```
 
 再提示 timeout 就多试几次，或者选择科学上网。
-
-
-## Pack
-
-### 0. pack的安装
-
-方法1：
-
-使用pack管理器（举例：minpac）安装
-
-.vimrc加入如下内容
-
-`call minpac#add('tpope/vim-eunuch')`
-
-vim命令模式执行
-
-`:PackUpdate`
 
 方法2：
 
