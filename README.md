@@ -57,7 +57,7 @@ git clone https://tpope.io/vim/eunuch.git
 
 - 使用方法1：
 
-输入`:enum `（注意m后面有个空格）然后按几次tab键选择之前打开过的文件
+输入`:MRU ` or `:enum `（注意m后面有个空格）然后按几次tab键选择之前打开过的文件
 
 - 使用方法2：
 
