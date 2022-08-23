@@ -1,5 +1,11 @@
 " ====== Common ====== start
 
+" >> Mouse operaion enable
+" For example:
+" - Use mouse drag to resize windows when in the multi-window mode with ':sp' and ':vsp'
+set mouse=a
+
+" >> TODO: ?
 if !has('gui_running')
   " 设置文本菜单
   if has('wildmenu')
@@ -22,6 +28,7 @@ if exists('g:loaded_minpac')
   " Other plugins
   call minpac#add('tpope/vim-eunuch')
   call minpac#add('yegappan/mru')
+  call minpac#add('preservim/nerdtree')
 endif
 
 if has('eval')
