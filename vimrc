@@ -18,6 +18,15 @@ if !has('gui_running')
 endif
 " ====== Common ====== end
 
+" ====== Key remap ====== start
+
+" 停止搜索高亮
+nnoremap <silent> <F2>      :nohlsearch<CR>
+inoremap <silent> <F2> <C-O>:nohlsearch<CR>
+
+" ====== Key remap ====== end
+
+
 
 " ====== Minpac Pack Management ====== start
 if exists('g:loaded_minpac')
